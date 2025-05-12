@@ -4,11 +4,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>html기본문법</title>
+    <title>html기본문법1</title>
+<!-- 내부스타일: style 태그 사용
+ <style>
+    header {
+        background-color: lightblue;
+        color:darkslategray;
+    } 
+    </style> -->
+    <link rel="stylesheet" type="text/css" href="./02.css">
 </head>
 
 <body>
-    <header>
+    <!-- 인라인 스타일 : style 속성 사용 -->
+    <!-- <header style="background-color: lightpink;">  -->
+
+        <header>
         <nav>
     <ul>
         <li> mylogo</li>
@@ -34,17 +45,19 @@
     </p>
 </article>
 <section>
-    <h2 id="html">
+    <h2 id="html" class="g1">
         HTLM
     </h2>
 </section>
+<section>
     <div>
         <img src="../img/html.png" alt="html">
     </div>
     <p>
         <strong> HTML(HyperText Markup Language)</strong> 은 웹을 이루는 가장 기초적인 구성 요소로, 웹 콘텐츠의 의미와 구조를 정의할 때 사용
     </p>
-    <h2 id="CSS">
+</section>
+    <h2 id="CSS" class="g2">
         CSS
     </h2>
     <div>
@@ -55,7 +68,7 @@
         Cascading Style Sheets(CSS)는 HTML이나 XML(XML의 방언인 SVG, XHTML 포함)로 작성된 문서의 표시 방법을 기술하기 위한 스타일 시트 언어
     </p>
 
-    <h2 id="js" alt="JavaScript">
+    <h2 id="js" alt="JavaScript"  class="g1">
         JavaScript
     </h2>
     <div>
@@ -65,7 +78,7 @@
         웹 페이지를 위한 스크립트 언어로 가벼운, 인터프리터 혹은 just-in-time 컴파일 프로그래밍 언어로, 일급 함수를 지원
     </p>
 
-    <h2 id="re" alt="React">
+    <h2 id="re" alt="React"  class="g2">
         React
     </h2>
     <div>

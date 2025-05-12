@@ -1,0 +1,19 @@
+header { 
+    background-color: rgb(223, 199, 221);
+    color:rgb(0, 0, 0);
+}
+
+.g1 {
+    background-color: aquamarine;
+    color: black;
+}
+
+.g2 {
+    background-color: rgb(170, 24, 109);
+    color: black;
+}
+
+#html{
+    background-color: blueviolet;
+    color: azure;
+}
